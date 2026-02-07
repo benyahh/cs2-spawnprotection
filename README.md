@@ -4,14 +4,13 @@ A simple spawn protection plugin for CS2.
 
 ## Requirements
 
-- CounterStrikeSharp
-- Metamod:Source
+- [CounterStrikeSharp](https://github.com/roflmuffin/CounterStrikeSharp
 
 ## How to use
 
-1. Install CounterStrikeSharp and Metamod:Source
+1. Install [CounterStrikeSharp](https://github.com/roflmuffin/CounterStrikeSharp) and [Metamod:Source](https://www.sourcemm.net/downloads.php/?branch=master)
 2. Download cs2-SpawnProtection
-3. Unzip the archive and upload SpawnProtection folder in the plugins folder.
+3. Unzip the archive and upload `SpawnProtection` folder in the `plugins` folder.
 
 ## Features
 
