@@ -2,29 +2,16 @@
 
 A simple spawn protection plugin for CS2.
 
----
-
 ## Requirements
 
 - CounterStrikeSharp
 - Metamod:Source
-- .NET 8
-
----
 
 ## How to use
 
 1. Install CounterStrikeSharp and Metamod:Source
-2. Download CS2-SpawnProtection
-3. Upload the SpawnProtection folder to:
-
-   addons/counterstrikesharp/plugins/
-
-4. Restart server or use:
-
-   css_plugins reload
-
----
+2. Download cs2-SpawnProtection
+3. Unzip the archive and upload SpawnProtection folder in the plugins folder.
 
 ## Features
 
@@ -40,12 +27,7 @@ A simple spawn protection plugin for CS2.
 
 ## Configure
 
-Config file location:
-
 addons/counterstrikesharp/configs/plugins/SpawnProtection/SpawnProtection.json
-
-
-Example config:
 
 ```json
 {
