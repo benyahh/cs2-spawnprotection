@@ -4,7 +4,9 @@ Spawn protection plugin for CounterStrike 2 using CounterStrikeSharp.
 
 ## Features
 - Spawn protection at round start
-- Configurable countdown
+- Configurable protection time (seconds)
+- Configurable countdown text
+- Configurable text color
 - Players hidden during protection
 - PvP blocked during protection
 - Center countdown message
@@ -25,4 +27,8 @@ Spawn protection plugin for CounterStrike 2 using CounterStrikeSharp.
 Config file will be generated here:
 addons/counterstrikesharp/configs/plugins/SpawnProtection/
 
-Edit the file to change time and messages.
+You can edit:
+- Protection time (seconds)
+- Countdown text
+- End message
+- Text color
