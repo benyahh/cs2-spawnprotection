@@ -8,7 +8,6 @@ Spawn protection plugin for CounterStrike 2 using CounterStrikeSharp.
 - Players hidden during protection
 - PvP blocked during protection
 - Center countdown message
-- Weapon desync fix
 
 ## Requirements
 - CounterStrikeSharp
@@ -27,6 +26,3 @@ Config file will be generated here:
 addons/counterstrikesharp/configs/plugins/SpawnProtection/
 
 Edit the file to change time and messages.
-
-## Author
-benyahh
