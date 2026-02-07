@@ -24,11 +24,20 @@ Spawn protection plugin for CounterStrike 2 using CounterStrikeSharp.
 
 ## Configuration
 
-Config file will be generated here:
-addons/counterstrikesharp/configs/plugins/SpawnProtection/
+Config file location:
+addons/counterstrikesharp/configs/plugins/SpawnProtection/SpawnProtection.json
 
-You can edit:
-- Protection time (seconds)
-- Countdown text
-- End message
-- Text color
+Example config:
+
+```json
+{
+  "Enabled": true,
+  "Seconds": 10,
+  "CountdownText": "Spawn Protection {SECONDS} sec.",
+  "EndText": "Spawn Protection is gone!",
+  "UseColoredCenterText": true,
+  "TextColorHex": "#FF0000",
+  "ForceWeaponResyncOnEnd": true,
+  "WeaponResyncPulses": 4,
+  "WeaponResyncPulseInterval": 0.2
+}
