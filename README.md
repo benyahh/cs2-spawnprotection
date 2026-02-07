@@ -1,31 +1,49 @@
-# SpawnProtection for CS2
+# CS2-SpawnProtection
 
-Spawn protection plugin for CounterStrike 2 using CounterStrikeSharp.
+A simple spawn protection plugin for CS2.
 
-## Features
-- Spawn protection at round start
-- Configurable protection time (seconds)
-- Configurable countdown text
-- Configurable text color
-- Players hidden during protection
-- PvP blocked during protection
-- Center countdown message
+---
 
 ## Requirements
+
 - CounterStrikeSharp
+- Metamod:Source
 - .NET 8
 
-## Installation
+---
 
-1. Download SpawnProtection.dll
-2. Copy it to:
-   addons/counterstrikesharp/plugins/SpawnProtection/
-3. Restart server or run: css_plugins reload
+## How to use
 
-## Configuration
+1. Install CounterStrikeSharp and Metamod:Source
+2. Download CS2-SpawnProtection
+3. Upload the SpawnProtection folder to:
+
+   addons/counterstrikesharp/plugins/
+
+4. Restart server or use:
+
+   css_plugins reload
+
+---
+
+## Features
+
+- Spawn protection at round start
+- Configurable protection time
+- Center countdown message
+- Configurable text and color
+- Players hidden during protection
+- PvP blocked
+- Weapon desync fix
+
+---
+
+## Configure
 
 Config file location:
+
 addons/counterstrikesharp/configs/plugins/SpawnProtection/SpawnProtection.json
+
 
 Example config:
 
